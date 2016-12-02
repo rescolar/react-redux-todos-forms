@@ -1,0 +1,43 @@
+{
+  "name": "basic1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.48",
+    "jspm-git": "^0.6.0"
+  },
+  "jspm": {
+    "dependencies": {
+      "es6-promise": "npm:es6-promise@^4.0.5",
+      "immutable": "npm:immutable@^3.8.1",
+      "lodash": "npm:lodash@^4.17.2",
+      "normalizr": "npm:normalizr@^2.2.1",
+      "object-assign": "npm:object-assign@^4.1.0",
+      "react": "npm:react@^15.4.0",
+      "react-bootstrap": "npm:react-bootstrap@^0.30.6",
+      "react-dom": "npm:react-dom@^15.4.0",
+      "react-redux": "npm:react-redux@^4.4.6",
+      "react-router": "npm:react-router@^3.0.0",
+      "react-router-redux": "npm:react-router-redux@^4.0.7",
+      "redux": "npm:redux@^3.6.0",
+      "redux-batched-actions": "npm:redux-batched-actions@^0.1.4",
+      "redux-form": "npm:redux-form@^6.2.0",
+      "redux-logger": "npm:redux-logger@^2.7.4",
+      "redux-thunk": "npm:redux-thunk@^2.1.0",
+      "reselect": "npm:reselect@^2.5.4",
+      "whatwg-fetch": "npm:whatwg-fetch@^2.0.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
